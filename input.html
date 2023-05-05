@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Hellow Testing the input </h1>
+    <input type="text" value="Pururaj" name="" id="x" placeholder="write here">
+    <input type="text" value="ABCS" name="" id="y" placeholder="write here">
+    <button type="button" onclick="output()">click me</button>
+    <p id="z">hello</p>
+
+    <script>
+        const x = document.getElementById('x');
+        const y = document.getElementById('y');
+        const z = document.getElementById('z');
+
+        function output() {
+            z.innerHTML=x.value;
+
+        }
+    </script>
+</body>
+
+</html>
